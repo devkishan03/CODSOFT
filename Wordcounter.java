@@ -1,7 +1,5 @@
 package Codesoft;
 
-
-
 import java.io.*;
 import java.util.Scanner;
 import java.util.StringTokenizer;
@@ -48,12 +46,13 @@ public class Wordcounter{
 
             }
 
+
+            StringTokenizer stk = new StringTokenizer(str, " ,.;:/\\><");
+            int count = stk.countTokens();
+            System.out.println("total words will be:" + count);
+
        }while (choice!=1|choice!=2);
 
-        sc.close();
 
-       StringTokenizer stk = new StringTokenizer(str, " ,.;:/\\><");
-        int count = stk.countTokens();
-        System.out.println("total words will be:" + count);
     }
 }
