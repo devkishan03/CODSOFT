@@ -102,7 +102,7 @@ public class Atmmachine
                  flag=true;
                  break;
              default:
-                 System.out.println("invalid input"+"Please try again"+"\n");
+                 System.out.println("invalid input "+"Please try again"+"\n");
          }
 
         }
